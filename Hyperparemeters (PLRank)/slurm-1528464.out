@@ -51,17 +51,3 @@
 [32m[I 2022-09-16 18:00:47,674][0m Trial 49 finished with value: 0.7061147931848921 and parameters: {'eta': 0.1879720060078121, 'min_child_weight': 9, 'max_depth': 10, 'gamma': 1.8841955854512733, 'alpha': 4.680793793837727}. Best is trial 37 with value: 0.7155610602499992.[0m
 N=100, K=5:
 {'eta': 0.3424916786320363, 'min_child_weight': 7, 'max_depth': 9, 'gamma': 1.214551167470019, 'alpha': 1.0807769330512789}
-
-JOB STATISTICS
-==============
-Job ID: 1528464
-Cluster: snellius
-User/Group: ehamer/ehamer
-State: COMPLETED (exit code 0)
-Nodes: 1
-Cores per node: 18
-CPU Utilized: 1-02:56:27
-CPU Efficiency: 9.86% of 11-09:12:18 core-walltime
-Job Wall-clock time: 15:10:41
-Memory Utilized: 2.25 GB
-Memory Efficiency: 3.52% of 64.00 GB
