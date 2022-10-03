@@ -17,7 +17,14 @@ python xgboost/demo/rank/trans_data.py dataset/ltrc_yahoo/set1.test.txt set1.tes
 python xgboost/demo/rank/trans_data.py dataset/ltrc_yahoo/set1.valid.txt set1.valid set1.valid.group
 ```
 
-The following command optimizes DCG@5 with PL-Rank-2 and with 100 samples on the Yahoo! dataset:
+The following command compares the NDCG@K results of different algorithms:
+
+1. PL-Rank-2 (optimizes DCG@K with 100 sampled rankings, half for estimating first order derivative, half for estimating second order derivative)
+
+2. LambdaMART (performs pairwise ranking where the pairwise loss is minimized)
+
+3. LambdaMART (performs listwise ranking where NDCG is maximized)
 ```
-python
+python Experiments/compare_for_K.py
 ```
+
