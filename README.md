@@ -16,3 +16,8 @@ python xgboost/demo/rank/trans_data.py dataset/ltrc_yahoo/set1.train.txt set1.tr
 python xgboost/demo/rank/trans_data.py dataset/ltrc_yahoo/set1.test.txt set1.test set1.test.group
 python xgboost/demo/rank/trans_data.py dataset/ltrc_yahoo/set1.valid.txt set1.valid set1.valid.group
 ```
+
+The following command optimizes DCG@5 with PL-Rank-2 and with 100 samples on the Yahoo! dataset:
+```
+python
+```
