@@ -1,0 +1,111 @@
+[I 2023-11-24 20:21:13,113] A new study created in memory with name: no-name-8628b9be-8247-4713-9291-310d49299dc3
+[I 2023-11-24 21:26:00,802] Trial 0 finished with value: 0.8053675193489053 and parameters: {'learning_rate': 0.021167675375765936, 'max_depth': 3, 'min_child_weight': 6, 'gamma': 2.3148628019691602e-05, 'lambda': 0.0021982133990725485, 'alpha': 2.2425305355647709e-07}. Best is trial 0 with value: 0.8053675193489053.
+[I 2023-11-24 22:05:56,299] Trial 1 finished with value: 0.7130083058507151 and parameters: {'learning_rate': 7.498886306176011e-05, 'max_depth': 4, 'min_child_weight': 7, 'gamma': 4.8191255068989195e-08, 'lambda': 0.16370278657968623, 'alpha': 3.8694440995457956e-07}. Best is trial 0 with value: 0.8053675193489053.
+[I 2023-11-24 23:04:50,371] Trial 2 finished with value: 0.7069041473516783 and parameters: {'learning_rate': 1.5425718573768853e-06, 'max_depth': 3, 'min_child_weight': 3, 'gamma': 0.0012068351261054042, 'lambda': 3.615852004708629e-06, 'alpha': 1.662811523991415e-07}. Best is trial 0 with value: 0.8053675193489053.
+/home/jkang1/plrank3.py:106: RuntimeWarning: divide by zero encountered in divide
+  cumsum_weight_denom = np.cumsum(rank_weights[:cutoff] / denom_per_rank, axis=1)
+/home/jkang1/plrank3.py:108: RuntimeWarning: divide by zero encountered in divide
+  cumsum_reward_denom = np.cumsum(cumsum_labels / denom_per_rank, axis=1)
+/home/jkang1/plrank3.py:108: RuntimeWarning: invalid value encountered in divide
+  cumsum_reward_denom = np.cumsum(cumsum_labels / denom_per_rank, axis=1)
+/home/jkang1/plrank3.py:122: RuntimeWarning: invalid value encountered in multiply
+  labels[cutoff_sampled_rankings]
+/home/jkang1/plrank3.py:126: RuntimeWarning: invalid value encountered in multiply
+  sampled_following_reward = exp_scores[cutoff_sampled_rankings] * cumsum_reward_denom
+/home/jkang1/plrank3.py:166: RuntimeWarning: divide by zero encountered in divide
+  * np.cumsum(1 / denom_per_rank[:, :-1], axis=1)
+/home/jkang1/plrank3.py:165: RuntimeWarning: invalid value encountered in multiply
+  - exp_scores[cutoff_sampled_rankings[:, :-1]]
+/home/jkang1/plrank3.py:171: RuntimeWarning: divide by zero encountered in divide
+  cumsum_denom = np.cumsum(1 / denom_per_rank, axis=1)
+/home/jkang1/plrank3.py:172: RuntimeWarning: invalid value encountered in multiply
+  sum_prob_per_doc = exp_scores * cumsum_denom[:, -1, None]
+/home/jkang1/plrank3.py:174: RuntimeWarning: invalid value encountered in multiply
+  exp_scores[cutoff_sampled_rankings] * cumsum_denom
+/home/jkang1/plrank3.py:182: RuntimeWarning: divide by zero encountered in divide
+  cumsum_weight_denom = np.cumsum(rank_weights[:cutoff] / denom_per_rank, axis=1)
+/home/jkang1/plrank3.py:184: RuntimeWarning: divide by zero encountered in divide
+  cumsum_reward_denom = np.cumsum(cumsum_labels / denom_per_rank, axis=1)
+/home/jkang1/plrank3.py:184: RuntimeWarning: invalid value encountered in divide
+  cumsum_reward_denom = np.cumsum(cumsum_labels / denom_per_rank, axis=1)
+/home/jkang1/plrank3.py:197: RuntimeWarning: invalid value encountered in multiply
+  labels[cutoff_sampled_rankings]
+/home/jkang1/plrank3.py:201: RuntimeWarning: invalid value encountered in multiply
+  sampled_following_reward = exp_scores[cutoff_sampled_rankings] * cumsum_reward_denom
+/home/jkang1/plrank3.py:208: RuntimeWarning: divide by zero encountered in divide
+  rank_weights[:cutoff] / denom_per_rank ** 2, axis=1
+/home/jkang1/plrank3.py:211: RuntimeWarning: divide by zero encountered in divide
+  cumsum_reward_denom_square = np.cumsum(cumsum_labels / denom_per_rank ** 2, axis=1)
+/home/jkang1/plrank3.py:211: RuntimeWarning: invalid value encountered in divide
+  cumsum_reward_denom_square = np.cumsum(cumsum_labels / denom_per_rank ** 2, axis=1)
+/home/jkang1/plrank3.py:224: RuntimeWarning: invalid value encountered in multiply
+  labels[cutoff_sampled_rankings]
+/home/jkang1/plrank3.py:229: RuntimeWarning: invalid value encountered in multiply
+  exp_scores[cutoff_sampled_rankings] ** 2 * cumsum_reward_denom_square
+/home/jkang1/plrank3.py:112: RuntimeWarning: invalid value encountered in multiply
+  second_part = -exp_scores[None, :] * cumsum_reward_denom[:, -1, None]
+/home/jkang1/plrank3.py:114: RuntimeWarning: invalid value encountered in multiply
+  labels[relevant_docs][None, :]
+/home/jkang1/plrank3.py:113: RuntimeWarning: invalid value encountered in add
+  second_part[:, relevant_docs] += (
+/home/jkang1/plrank3.py:187: RuntimeWarning: invalid value encountered in multiply
+  second_part = -exp_scores[None, :] * cumsum_reward_denom[:, -1, None]
+/home/jkang1/plrank3.py:189: RuntimeWarning: invalid value encountered in multiply
+  labels[relevant_docs][None, :]
+/home/jkang1/plrank3.py:188: RuntimeWarning: invalid value encountered in add
+  second_part[:, relevant_docs] += (
+/home/jkang1/plrank3.py:214: RuntimeWarning: invalid value encountered in multiply
+  third_part = -exp_scores[None, :] ** 2 * cumsum_reward_denom_square[:, -1, None]
+/home/jkang1/plrank3.py:216: RuntimeWarning: invalid value encountered in multiply
+  labels[relevant_docs][None, :]
+/home/jkang1/plrank3.py:215: RuntimeWarning: invalid value encountered in add
+  third_part[:, relevant_docs] += (
+[I 2023-11-25 00:18:30,422] Trial 3 finished with value: 0.7341964835865076 and parameters: {'learning_rate': 0.39788027165976575, 'max_depth': 7, 'min_child_weight': 2, 'gamma': 0.06209574378897863, 'lambda': 6.5309472959262e-05, 'alpha': 0.00014214432758696965}. Best is trial 0 with value: 0.8053675193489053.
+[I 2023-11-25 01:20:05,876] Trial 4 finished with value: 0.8082155836482513 and parameters: {'learning_rate': 0.014785033268785393, 'max_depth': 8, 'min_child_weight': 5, 'gamma': 0.0009075326306354722, 'lambda': 0.04798914154844602, 'alpha': 0.6257977389426332}. Best is trial 4 with value: 0.8082155836482513.
+[I 2023-11-25 01:27:57,043] Trial 5 pruned. Trial was pruned at iteration 13.
+[I 2023-11-25 01:33:33,370] Trial 6 pruned. Trial was pruned at iteration 9.
+[I 2023-11-25 01:39:09,653] Trial 7 pruned. Trial was pruned at iteration 9.
+[I 2023-11-25 01:48:41,850] Trial 8 pruned. Trial was pruned at iteration 16.
+[I 2023-11-25 01:56:32,932] Trial 9 pruned. Trial was pruned at iteration 13.
+[I 2023-11-25 03:30:17,363] Trial 10 finished with value: 0.8127440681598231 and parameters: {'learning_rate': 0.005804408853844277, 'max_depth': 9, 'min_child_weight': 6, 'gamma': 0.46133435285250596, 'lambda': 0.0032271694511873724, 'alpha': 0.5212200475950671}. Best is trial 10 with value: 0.8127440681598231.
+[I 2023-11-25 04:44:01,305] Trial 11 pruned. Trial was pruned at iteration 132.
+[I 2023-11-25 04:46:44,625] Trial 12 pruned. Trial was pruned at iteration 4.
+[I 2023-11-25 05:25:21,057] Trial 13 pruned. Trial was pruned at iteration 71.
+[I 2023-11-25 06:04:28,553] Trial 14 pruned. Trial was pruned at iteration 71.
+[I 2023-11-25 06:07:11,450] Trial 15 pruned. Trial was pruned at iteration 4.
+[I 2023-11-25 06:09:54,497] Trial 16 pruned. Trial was pruned at iteration 4.
+[I 2023-11-25 06:18:42,691] Trial 17 pruned. Trial was pruned at iteration 15.
+[I 2023-11-25 06:21:26,170] Trial 18 pruned. Trial was pruned at iteration 4.
+[I 2023-11-25 07:35:05,793] Trial 19 pruned. Trial was pruned at iteration 132.
+[I 2023-11-25 08:15:34,204] Trial 20 pruned. Trial was pruned at iteration 71.
+[I 2023-11-25 08:18:22,860] Trial 21 pruned. Trial was pruned at iteration 4.
+[I 2023-11-25 08:21:11,524] Trial 22 pruned. Trial was pruned at iteration 4.
+[I 2023-11-25 09:01:01,996] Trial 23 pruned. Trial was pruned at iteration 71.
+[I 2023-11-25 09:03:50,617] Trial 24 pruned. Trial was pruned at iteration 4.
+[I 2023-11-25 10:17:48,952] Trial 25 pruned. Trial was pruned at iteration 132.
+[I 2023-11-25 11:32:25,237] Trial 26 pruned. Trial was pruned at iteration 132.
+[I 2023-11-25 12:12:06,832] Trial 27 pruned. Trial was pruned at iteration 71.
+[I 2023-11-25 12:51:55,038] Trial 28 pruned. Trial was pruned at iteration 71.
+[I 2023-11-25 12:58:38,302] Trial 29 pruned. Trial was pruned at iteration 11.
+[I 2023-11-25 14:12:35,446] Trial 30 pruned. Trial was pruned at iteration 132.
+[I 2023-11-25 14:21:09,477] Trial 31 pruned. Trial was pruned at iteration 14.
+[I 2023-11-25 15:01:16,382] Trial 32 pruned. Trial was pruned at iteration 71.
+[I 2023-11-25 15:01:50,214] Trial 33 pruned. Trial was pruned at iteration 0.
+[I 2023-11-25 15:02:23,966] Trial 34 pruned. Trial was pruned at iteration 0.
+[I 2023-11-25 15:41:58,119] Trial 35 pruned. Trial was pruned at iteration 71.
+[I 2023-11-25 15:44:46,627] Trial 36 pruned. Trial was pruned at iteration 4.
+[I 2023-11-25 15:52:04,528] Trial 37 pruned. Trial was pruned at iteration 12.
+[I 2023-11-25 15:54:52,583] Trial 38 pruned. Trial was pruned at iteration 4.
+[I 2023-11-25 15:57:40,977] Trial 39 pruned. Trial was pruned at iteration 4.
+[I 2023-11-25 16:00:29,972] Trial 40 pruned. Trial was pruned at iteration 4.
+[I 2023-11-25 16:40:56,051] Trial 41 pruned. Trial was pruned at iteration 71.
+[I 2023-11-25 16:47:40,928] Trial 42 pruned. Trial was pruned at iteration 11.
+[I 2023-11-25 16:50:29,765] Trial 43 pruned. Trial was pruned at iteration 4.
+[I 2023-11-25 16:58:22,264] Trial 44 pruned. Trial was pruned at iteration 13.
+[I 2023-11-25 16:58:56,067] Trial 45 pruned. Trial was pruned at iteration 0.
+[I 2023-11-25 17:39:17,316] Trial 46 pruned. Trial was pruned at iteration 71.
+[I 2023-11-25 18:51:57,372] Trial 47 pruned. Trial was pruned at iteration 132.
+[I 2023-11-25 18:58:29,805] Trial 48 pruned. Trial was pruned at iteration 11.
+[I 2023-11-25 19:01:13,506] Trial 49 pruned. Trial was pruned at iteration 4.
+Completed hyperparameter tuning with best ndcg@25 = 0.8127440681598231.
+Re-running the best trial... params = {'verbosity': 0, 'eval_metric': 'ndcg@25', 'device': 'cuda', 'learning_rate': 0.005804408853844277, 'max_depth': 9, 'min_child_weight': 6, 'gamma': 0.46133435285250596, 'lambda': 0.0032271694511873724, 'alpha': 0.5212200475950671}
