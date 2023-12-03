@@ -1,0 +1,53 @@
+[I 2023-12-03 01:19:13,892] A new study created in memory with name: no-name-a74a9cd6-6b76-402d-8d62-0c6c3fd58926
+[I 2023-12-03 01:19:28,460] Trial 0 finished with value: 0.7791930882834472 and parameters: {'learning_rate': 0.7428927510061462, 'max_depth': 5, 'min_child_weight': 10, 'gamma': 0.05031974441583538, 'lambda': 7.076101287871925e-07, 'alpha': 2.823074915809066e-08}. Best is trial 0 with value: 0.7791930882834472.
+[I 2023-12-03 01:19:30,718] Trial 1 finished with value: 0.6856616568130421 and parameters: {'learning_rate': 3.688818256634535e-05, 'max_depth': 2, 'min_child_weight': 2, 'gamma': 3.3036456959391907e-07, 'lambda': 0.004286797897511434, 'alpha': 1.323119560125804e-05}. Best is trial 0 with value: 0.7791930882834472.
+[I 2023-12-03 01:19:34,816] Trial 2 finished with value: 0.737259489182208 and parameters: {'learning_rate': 0.00020394376746537163, 'max_depth': 7, 'min_child_weight': 2, 'gamma': 0.0007301210307160324, 'lambda': 9.990199887375912e-06, 'alpha': 0.4226041709923421}. Best is trial 0 with value: 0.7791930882834472.
+[I 2023-12-03 01:19:59,017] Trial 3 finished with value: 0.768911356981821 and parameters: {'learning_rate': 0.034933189763730964, 'max_depth': 5, 'min_child_weight': 5, 'gamma': 0.0002541843370492805, 'lambda': 2.2295335663838856e-05, 'alpha': 2.2901602446356183e-07}. Best is trial 0 with value: 0.7791930882834472.
+[I 2023-12-03 01:20:25,666] Trial 4 finished with value: 0.7548671822410775 and parameters: {'learning_rate': 0.004993879584273393, 'max_depth': 6, 'min_child_weight': 8, 'gamma': 0.8838207723143306, 'lambda': 0.007907188039400256, 'alpha': 0.5567732648707084}. Best is trial 0 with value: 0.7791930882834472.
+[I 2023-12-03 01:20:25,924] Trial 5 pruned. Trial was pruned at iteration 0.
+[I 2023-12-03 01:20:30,758] Trial 6 finished with value: 0.7462090669020073 and parameters: {'learning_rate': 0.0013473137487071585, 'max_depth': 9, 'min_child_weight': 4, 'gamma': 0.07558908507902144, 'lambda': 0.4037682905091351, 'alpha': 0.0006668434103233959}. Best is trial 0 with value: 0.7791930882834472.
+[I 2023-12-03 01:20:35,433] Trial 7 pruned. Trial was pruned at iteration 23.
+[I 2023-12-03 01:20:35,690] Trial 8 pruned. Trial was pruned at iteration 0.
+[I 2023-12-03 01:20:35,934] Trial 9 pruned. Trial was pruned at iteration 0.
+[I 2023-12-03 01:20:36,188] Trial 10 pruned. Trial was pruned at iteration 0.
+[I 2023-12-03 01:21:05,668] Trial 11 finished with value: 0.7740752064073628 and parameters: {'learning_rate': 0.030767578372119797, 'max_depth': 7, 'min_child_weight': 6, 'gamma': 8.016305619315309e-05, 'lambda': 1.4973928486141223e-06, 'alpha': 7.413941348548823e-07}. Best is trial 0 with value: 0.7791930882834472.
+[I 2023-12-03 01:21:22,216] Trial 12 finished with value: 0.7821542941176968 and parameters: {'learning_rate': 0.5392268191319098, 'max_depth': 7, 'min_child_weight': 7, 'gamma': 1.2050589162975457e-05, 'lambda': 5.490279812742847e-07, 'alpha': 9.269056640701524e-07}. Best is trial 12 with value: 0.7821542941176968.
+[I 2023-12-03 01:21:35,126] Trial 13 finished with value: 0.7769281353534669 and parameters: {'learning_rate': 0.6581821401034038, 'max_depth': 7, 'min_child_weight': 8, 'gamma': 8.235425879500107e-06, 'lambda': 2.481466114674289e-07, 'alpha': 2.3762689344176086e-06}. Best is trial 12 with value: 0.7821542941176968.
+[I 2023-12-03 01:21:43,097] Trial 14 finished with value: 0.7698079258029652 and parameters: {'learning_rate': 0.8812973923786375, 'max_depth': 8, 'min_child_weight': 9, 'gamma': 1.8786170014590305e-06, 'lambda': 0.0001329606166047272, 'alpha': 9.826246149732177e-06}. Best is trial 12 with value: 0.7821542941176968.
+[I 2023-12-03 01:21:43,381] Trial 15 pruned. Trial was pruned at iteration 0.
+[I 2023-12-03 01:21:43,640] Trial 16 pruned. Trial was pruned at iteration 0.
+[I 2023-12-03 01:21:43,924] Trial 17 pruned. Trial was pruned at iteration 0.
+[I 2023-12-03 01:21:44,185] Trial 18 pruned. Trial was pruned at iteration 0.
+[I 2023-12-03 01:21:44,986] Trial 19 pruned. Trial was pruned at iteration 3.
+[I 2023-12-03 01:21:45,308] Trial 20 pruned. Trial was pruned at iteration 0.
+[I 2023-12-03 01:21:53,260] Trial 21 finished with value: 0.7747724439291861 and parameters: {'learning_rate': 0.9704570591449464, 'max_depth': 7, 'min_child_weight': 8, 'gamma': 8.311175527038261e-06, 'lambda': 2.7238103405750417e-07, 'alpha': 2.277718071025425e-06}. Best is trial 12 with value: 0.7821542941176968.
+[I 2023-12-03 01:22:23,453] Trial 22 finished with value: 0.7895044865067848 and parameters: {'learning_rate': 0.18401104525705125, 'max_depth': 8, 'min_child_weight': 7, 'gamma': 5.827401391436714e-05, 'lambda': 4.0003676676478e-07, 'alpha': 2.72588919220291e-06}. Best is trial 22 with value: 0.7895044865067848.
+[I 2023-12-03 01:22:28,250] Trial 23 pruned. Trial was pruned at iteration 27.
+[I 2023-12-03 01:22:53,791] Trial 24 finished with value: 0.787642970428179 and parameters: {'learning_rate': 0.1697103404091797, 'max_depth': 9, 'min_child_weight': 5, 'gamma': 0.0007344174594986451, 'lambda': 4.387873245056559e-08, 'alpha': 4.6353574898450074e-07}. Best is trial 22 with value: 0.7895044865067848.
+[I 2023-12-03 01:22:54,545] Trial 25 pruned. Trial was pruned at iteration 2.
+[I 2023-12-03 01:22:56,029] Trial 26 pruned. Trial was pruned at iteration 7.
+[I 2023-12-03 01:23:20,950] Trial 27 finished with value: 0.7851106594842244 and parameters: {'learning_rate': 0.1907985309039535, 'max_depth': 9, 'min_child_weight': 6, 'gamma': 2.294986095731944e-05, 'lambda': 1.2633246359812923e-07, 'alpha': 3.8781016107418344e-05}. Best is trial 22 with value: 0.7895044865067848.
+[I 2023-12-03 01:23:21,900] Trial 28 pruned. Trial was pruned at iteration 3.
+[I 2023-12-03 01:23:26,894] Trial 29 pruned. Trial was pruned at iteration 24.
+[I 2023-12-03 01:23:31,866] Trial 30 pruned. Trial was pruned at iteration 27.
+[I 2023-12-03 01:23:56,399] Trial 31 finished with value: 0.783768402411502 and parameters: {'learning_rate': 0.2562140429260591, 'max_depth': 8, 'min_child_weight': 7, 'gamma': 2.366367884300045e-05, 'lambda': 2.969324497972484e-07, 'alpha': 3.118686063114249e-06}. Best is trial 22 with value: 0.7895044865067848.
+[I 2023-12-03 01:23:57,147] Trial 32 pruned. Trial was pruned at iteration 2.
+[I 2023-12-03 01:23:58,297] Trial 33 pruned. Trial was pruned at iteration 5.
+[I 2023-12-03 01:24:19,272] Trial 34 finished with value: 0.7845659236357957 and parameters: {'learning_rate': 0.2792594814943934, 'max_depth': 9, 'min_child_weight': 7, 'gamma': 8.733281605348703e-05, 'lambda': 6.055580737469265e-08, 'alpha': 2.049749124109616e-06}. Best is trial 22 with value: 0.7895044865067848.
+[I 2023-12-03 01:24:20,223] Trial 35 pruned. Trial was pruned at iteration 3.
+[I 2023-12-03 01:24:20,958] Trial 36 pruned. Trial was pruned at iteration 2.
+[I 2023-12-03 01:24:21,259] Trial 37 pruned. Trial was pruned at iteration 0.
+[I 2023-12-03 01:24:21,716] Trial 38 pruned. Trial was pruned at iteration 0.
+[I 2023-12-03 01:24:42,917] Trial 39 finished with value: 0.784178992639844 and parameters: {'learning_rate': 0.3234598861224237, 'max_depth': 9, 'min_child_weight': 4, 'gamma': 0.0003469645510255881, 'lambda': 3.253669047330922e-08, 'alpha': 6.684110313116256e-06}. Best is trial 22 with value: 0.7895044865067848.
+[I 2023-12-03 01:24:43,414] Trial 40 pruned. Trial was pruned at iteration 1.
+[I 2023-12-03 01:24:45,347] Trial 41 pruned. Trial was pruned at iteration 8.
+[I 2023-12-03 01:24:46,103] Trial 42 pruned. Trial was pruned at iteration 2.
+[I 2023-12-03 01:24:46,850] Trial 43 pruned. Trial was pruned at iteration 2.
+[I 2023-12-03 01:24:47,498] Trial 44 pruned. Trial was pruned at iteration 2.
+[I 2023-12-03 01:25:06,565] Trial 45 pruned. Trial was pruned at iteration 113.
+[I 2023-12-03 01:25:06,980] Trial 46 pruned. Trial was pruned at iteration 0.
+[I 2023-12-03 01:25:07,678] Trial 47 pruned. Trial was pruned at iteration 2.
+[I 2023-12-03 01:25:07,935] Trial 48 pruned. Trial was pruned at iteration 0.
+[I 2023-12-03 01:25:08,235] Trial 49 pruned. Trial was pruned at iteration 0.
+Completed hyperparameter tuning with best ndcg@10 = 0.7895044865067848.
+Re-running the best trial... params = {'verbosity': 0, 'eval_metric': 'ndcg@10', 'objective': 'rank:ndcg', 'device': 'cuda', 'learning_rate': 0.18401104525705125, 'max_depth': 8, 'min_child_weight': 7, 'gamma': 5.827401391436714e-05, 'lambda': 4.0003676676478e-07, 'alpha': 2.72588919220291e-06}
