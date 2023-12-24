@@ -1,0 +1,1 @@
+scores = scores - max + (max-min)/2
